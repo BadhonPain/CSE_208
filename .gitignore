@@ -1,19 +1,89 @@
-# Ignore Windows executables
+# ==========================
+# Compiled Executables
+# ==========================
 *.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
 
-# Ignore object files
+# ==========================
+# Object & Binary Files
+# ==========================
 *.o
 *.obj
+*.a
+*.lib
+*.gch
+*.pch
 
-# Ignore build folders
+# ==========================
+# Build Directories
+# ==========================
 bin/
 build/
+cmake-build-*/
+Debug/
+Release/
 
-# Ignore cph folders
-.cph/
+# ==========================
+# CMake
+# ==========================
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
 
-# Ignore VS Code Code Runner temp files
+# ==========================
+# Visual Studio Code
+# ==========================
+.vscode/
+!.vscode/extensions.json
+
+# Code Runner temporary file
 tempCodeRunnerFile.cpp
 
-# Ignore VS Code settings
-.vscode/
+# ==========================
+# Codeforces Helper (CPH)
+# ==========================
+.cph/
+
+# ==========================
+# Logs
+# ==========================
+*.log
+
+# ==========================
+# Temporary Files
+# ==========================
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# ==========================
+# OS Files
+# ==========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================
+# Profiling / Coverage
+# ==========================
+*.gcda
+*.gcno
+*.gcov
+coverage/
+
+# ==========================
+# Archives
+# ==========================
+*.zip
+*.tar
+*.gz
+*.7z
