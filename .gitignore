@@ -1,0 +1,19 @@
+# Ignore Windows executables
+*.exe
+
+# Ignore object files
+*.o
+*.obj
+
+# Ignore build folders
+bin/
+build/
+
+# Ignore cph folders
+.cph/
+
+# Ignore VS Code Code Runner temp files
+tempCodeRunnerFile.cpp
+
+# Ignore VS Code settings
+.vscode/
